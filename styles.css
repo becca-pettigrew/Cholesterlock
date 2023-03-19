@@ -1,44 +1,26 @@
-/* CSS for header and navigation bar */
-		header {
-			background-color: #AA0204;
-			color: #FBED90;
-			padding: 20px;
-			text-align: center;
-		}
 
-		/*nav {
-			background-color: #430103;
-			overflow: hidden;
-		}
+/** CSS for all web pages :) **/
 
-		nav a {
-			float: left;
-			color: #FBED90;
-			text-align: center;
-			padding: 14px 16px;
-			text-decoration: none;
-		}
+.topnav{
+	border-bottom: 3PX solid rgb(144, 38, 179);
+}
 
-		nav b {
-			float: right;
-			color: #FBED90;
-			text-align: center;
-			padding: 14px 16px;
-			text-decoration: none;
-		}
+.intro{
+	height:90vh;
+}
 
-		nav a:hover {
-			background-color: #FBED90;
-			color: #430103;
-		}
+.about{
+	height: 70vh;
+}
 
-		*/
+.text{
+	width: 80vh;
+}
 
-		/* CSS for main content section */
-		main {
-			padding: 20px;
-			background-color: #f2f2f2;
-			margin-top: 20px;
-			margin-bottom: 20px;
-			border-radius: 5px;
-		}
+.subtabintro{
+	height:50vh;
+}
+
+.pagecontent{
+	height: 90vh;
+}
