@@ -2,6 +2,7 @@
 /** CSS for all web pages :) **/
 body {
 	font-size: 62.5%;
+
 }
 
 .topnav{
@@ -32,19 +33,16 @@ body {
 	width: 30vw;
 }
 
-span {
-	color: blue;
-	display: inline-block;
-	transition: color 1s, transform 0.5s ease;
-}
 	
-	  
-span.fade {
-	color: white;
+.introcolor{
+	background-color:black;
 }
-
+	  
 
 .title{
-	opacity: 1;
-	color: white;
+	line-height: 10vh;
+	color:red;
 }
+
+
+
