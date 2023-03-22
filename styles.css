@@ -1,5 +1,8 @@
 
 /** CSS for all web pages :) **/
+body {
+	font-size: 62.5%;
+}
 
 .topnav{
 	border-bottom: 3PX solid rgb(144, 38, 179);
