@@ -32,14 +32,19 @@ body {
 	width: 30vw;
 }
 
-.span{
-	opacity: 0;
-	transition: all 1s ease;
-	transform: translateY(50px);
+span {
+	color: blue;
 	display: inline-block;
+	transition: color 1s, transform 0.5s ease;
+}
+	
+	  
+span.fade {
+	color: white;
 }
 
-span.fade{
+
+.title{
 	opacity: 1;
-	transform: translateY(0px);
+	color: white;
 }
