@@ -6,11 +6,13 @@ body {
 }
 
 .topnav{
-	border-bottom: 3PX solid rgb(144, 38, 179);
+	border-bottom: 3PX solid #fc5f4c;
+	background-color: #ad100f;
 }
 
 .intro{
 	height:90vh;
+	background-image: linear-gradient(to top, #c4241c, #cf3125, #d93c2e, #e44737, #ee5140, #f35d44, #f86948, #fd744c, #fd824e, #fd9051, #fd9d56, #fca95d);
 }
 
 .about{
@@ -18,7 +20,7 @@ body {
 }
 
 .text{
-	width: 80vh;
+	width: 50vw;
 }
 
 .subtabintro{
@@ -33,16 +35,20 @@ body {
 	width: 30vw;
 }
 
-	
-.introcolor{
-	background-color:black;
+.navlogo{
+	width: 10vw;
 }
-	  
+	
+
 
 .title{
 	line-height: 10vh;
-	color:red;
+	color:#470000;
 }
 
+.video{
+	width: 30vw;
+	height: 30vh;
+}
 
 
