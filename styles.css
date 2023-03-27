@@ -79,6 +79,11 @@ h1{
 	right: 25%;
 }
 
+.card .img-fit {
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
 .card {
     /* display: flex; */
     height: 100%;
@@ -95,4 +100,10 @@ h1{
     /* flex: 1; */
     flex-grow: 1;
 }
-	
+
+@media (max-width: 767.98px) {
+    .card .img-fit {
+        aspect-ratio: 1.45 / 1;
+        object-fit: cover;
+    }
+}
