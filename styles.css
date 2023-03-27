@@ -8,6 +8,7 @@ body {
 .topnav{
 	border-bottom: 3PX solid #fc5f4c;
 	background-color: #ad100f;
+	height: 15vh;
 }
 
 .intro{
@@ -15,24 +16,31 @@ body {
 	background-image: linear-gradient(to top, #c4241c, #cf3125, #d93c2e, #e44737, #ee5140, #f35d44, #f86948, #fd744c, #fd824e, #fd9051, #fd9d56, #fca95d);
 }
 
+.info{
+	background-image: linear-gradient(to top, #c4241c, #cf3125, #d93c2e, #e44737, #ee5140, #f35d44, #f86948, #fd744c, #fd824e, #fd9051, #fd9d56, #fca95d);
+	height: 90vh;
+}
+
+
+
 .about{
 	height: 70vh;
 }
 
 .text{
-	width: 50vw;
+	font-size: 1em;
 }
 
-.subtabintro{
-	height:50vh;
-}
 
 .pagecontent{
 	height: 90vh;
 }
 
 .logo{
-	width: 30vw;
+	max-width: 30%;
+	max-height: 30%;
+	height: auto;
+	width: auto\9;
 }
 
 .navlogo{
@@ -44,11 +52,47 @@ body {
 .title{
 	line-height: 10vh;
 	color:#470000;
+	text-shadow: 1px 1px #ffffff;
 }
 
 .video{
-	width: 30vw;
-	height: 30vh;
+	padding-bottom: 5%;
+	max-width: 100%;
+	height: auto;
+	width: auto\9;
 }
 
+.footer{
+	background-color: #ad100f;
+	height: 15vh;
+	position: absolute;
+	bottom: 0;
+}
 
+h1{
+	color: #470000;
+}
+
+.arrow{
+	position: absolute;
+	bottom: 0;
+	right: 25%;
+}
+
+.card {
+    /* display: flex; */
+    height: 100%;
+    /* flex-direction: column; */
+}
+
+.card-body {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.card-text {
+    /* flex: 1; */
+    flex-grow: 1;
+}
+	
