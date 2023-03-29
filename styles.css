@@ -56,10 +56,13 @@ body {
 }
 
 .video{
-	padding-bottom: 5%;
 	max-width: 100%;
 	height: auto;
 	width: auto\9;
+}
+
+.navtest{
+	background-color: #ad100f;
 }
 
 .footer{
@@ -106,4 +109,14 @@ h1{
         aspect-ratio: 1.45 / 1;
         object-fit: cover;
     }
+}
+
+.navbar-nav {
+	background-color: #ad100f;
+}
+
+@media screen and (max-width: 600px) {
+
+    .logo {display:none;}
+
 }
