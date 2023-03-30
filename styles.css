@@ -21,6 +21,11 @@ body {
 	height: 90vh;
 }
 
+.weaknesses{
+	background-image: linear-gradient(to top, #c4241c, #cf3125, #d93c2e, #e44737, #ee5140, #f35d44, #f86948, #fd744c, #fd824e, #fd9051, #fd9d56, #fca95d);
+	height: 175vh;
+}
+
 
 
 .about{
@@ -29,6 +34,13 @@ body {
 
 .text{
 	font-size: 1.5em;
+}
+
+.smalltext{
+	font-size: 1em;
+}
+.smallertext{
+	font-size: 1em;
 }
 
 
@@ -124,3 +136,24 @@ h1{
 @media (max-width: 925px) {
     .text{font-size: 0.75em;}
 }
+
+@media (max-width: 925px) {
+    .smalltext{font-size: 0.7em;}
+}
+
+@media (max-width: 1208px) {
+    .smallertext{font-size: 0.7em;}
+}
+
+@media (max-width: 925px) {
+    .weaknesses{height: 250vh;}
+}
+
+
+.hidden{
+	display: none;
+}
+
+h5:hover {
+	color: #fc514c;
+  }
