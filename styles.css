@@ -12,8 +12,11 @@ body {
 }
 
 .intro{
-	height:90vh;
 	background-image: linear-gradient(to top, #c4241c, #cf3125, #d93c2e, #e44737, #ee5140, #f35d44, #f86948, #fd744c, #fd824e, #fd9051, #fd9d56, #fca95d);
+	width: 100%;
+	min-height: 70vh;
+	background-size: contain;
+    grid-column-gap: 5%;
 }
 
 .info{
@@ -21,11 +24,13 @@ body {
 	height: 90vh;
 }
 
-
-
 .about{
-	height: 70vh;
+	background-size: contain;
+	margin-top: 8vh;
+	margin-bottom: 8vh;
 }
+
+
 
 .text{
 	font-size: 1em;
@@ -37,14 +42,15 @@ body {
 }
 
 .logo{
-	max-width: 30%;
-	max-height: 30%;
-	height: auto;
-	width: auto\9;
+	width: 30dvw;
+}
+
+.lead{
+	width: auto;
 }
 
 .navlogo{
-	width: 10vw;
+	width: 20vh;
 }
 	
 
@@ -65,8 +71,9 @@ body {
 .footer{
 	background-color: #ad100f;
 	height: 15vh;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
+	margin-top: auto;
 }
 
 h1{
