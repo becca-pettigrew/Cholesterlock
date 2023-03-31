@@ -60,6 +60,11 @@ body {
 	width: 30dvw;
 }
 
+.hpimg{
+	width: 30dvw;
+	padding:5%;
+}
+
 .lead{
 	width: auto;
 }
@@ -74,6 +79,10 @@ body {
 	line-height: 10vh;
 	color:#470000;
 	text-shadow: 1px 1px #ffffff;
+}
+
+.subtitle{
+	padding-bottom: 2%;
 }
 
 .video{
@@ -143,6 +152,12 @@ h1{
 
 }
 
+@media screen and (max-width: 925px) {
+
+    .hpimg {display:none;}
+
+}
+
 @media (max-width: 925px) {
     .text{font-size: 0.75em;}
 }
@@ -150,6 +165,14 @@ h1{
 @media (max-width: 925px) {
     .smalltext{font-size: 0.7em;}
 }
+
+.hidden{
+	display: none;
+}
+
+h5:hover {
+	color: #fc514c;
+  }
 
 @media (max-width: 1208px) {
     .smallertext{font-size: 0.7em;}
@@ -159,11 +182,3 @@ h1{
     .weaknesses{height: 250vh;}
 }
 
-
-.hidden{
-	display: none;
-}
-
-h5:hover {
-	color: #fc514c;
-  }
