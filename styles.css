@@ -24,6 +24,13 @@ body {
 	height: 90vh;
 }
 
+
+.weaknesses{
+	background-image: linear-gradient(to top, #c4241c, #cf3125, #d93c2e, #e44737, #ee5140, #f35d44, #f86948, #fd744c, #fd824e, #fd9051, #fd9d56, #fca95d);
+	height: 175vh;
+}
+
+
 .about{
 	background-size: contain;
 	margin-top: 8vh;
@@ -33,6 +40,13 @@ body {
 
 
 .text{
+	font-size: 1.5em;
+}
+
+.smalltext{
+	font-size: 1em;
+}
+.smallertext{
 	font-size: 1em;
 }
 
@@ -62,10 +76,13 @@ body {
 }
 
 .video{
-	padding-bottom: 5%;
 	max-width: 100%;
 	height: auto;
 	width: auto\9;
+}
+
+.navtest{
+	background-color: #ad100f;
 }
 
 .footer{
@@ -114,3 +131,38 @@ h1{
         object-fit: cover;
     }
 }
+
+.navbar-nav {
+	background-color: #ad100f;
+}
+
+@media screen and (max-width: 925px) {
+
+    .logo {display:none;}
+
+}
+
+@media (max-width: 925px) {
+    .text{font-size: 0.75em;}
+}
+
+@media (max-width: 925px) {
+    .smalltext{font-size: 0.7em;}
+}
+
+@media (max-width: 1208px) {
+    .smallertext{font-size: 0.7em;}
+}
+
+@media (max-width: 925px) {
+    .weaknesses{height: 250vh;}
+}
+
+
+.hidden{
+	display: none;
+}
+
+h5:hover {
+	color: #fc514c;
+  }
