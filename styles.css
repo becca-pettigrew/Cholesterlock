@@ -106,8 +106,8 @@ body {
 
 .subtitle{
 	line-height: 10vh;
-	color:#470000;
-	text-shadow: 1px 1px #ffffff;
+	color:white;
+	padding-bottom: 5%;
 }
 
 .video{
