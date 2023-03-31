@@ -11,6 +11,16 @@ body {
 	height: 15vh;
 }
 
+
+@media (max-width:991px) {
+	.nav-item {
+		background-color: #ad100f;
+		border: 2px solid #fc5f4c;
+	}
+}
+  
+
+
 .intro{
 	background-image: linear-gradient(to top, #c4241c, #cf3125, #d93c2e, #e44737, #ee5140, #f35d44, #f86948, #fd744c, #fd824e, #fd9051, #fd9d56, #fca95d);
 	width: 100%;
@@ -36,6 +46,10 @@ body {
 
 .pd_header{
 	padding-bottom: 3vh;
+}
+
+.hp_padding{
+	padding-top: 3vh;
 }
 
 .container_1{
@@ -100,8 +114,8 @@ body {
 
 .title{
 	line-height: 10vh;
-	color:#470000;
-	text-shadow: 1px 1px #ffffff;
+	color:white;
+	padding-bottom: 2%;
 }
 
 .subtitle{
@@ -114,10 +128,6 @@ body {
 	max-width: 100%;
 	height: auto;
 	width: auto\9;
-}
-
-.navtest{
-	background-color: #ad100f;
 }
 
 
@@ -178,9 +188,7 @@ h1{
     }
 }
 
-.navbar-nav {
-	background-color: #ad100f;
-}
+
 
 @media screen and (max-width: 925px) {
 
