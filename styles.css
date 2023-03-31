@@ -14,9 +14,10 @@ body {
 .intro{
 	background-image: linear-gradient(to top, #c4241c, #cf3125, #d93c2e, #e44737, #ee5140, #f35d44, #f86948, #fd744c, #fd824e, #fd9051, #fd9d56, #fca95d);
 	width: 100%;
-	min-height: 70vh;
+	min-height: 90vh;
 	background-size: contain;
     grid-column-gap: 5%;
+	padding-top: 8%;
 }
 
 .info{
